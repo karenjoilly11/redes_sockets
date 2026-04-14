@@ -1,79 +1,96 @@
-📋 Sobre o Projeto
+## 📋 Sobre o Projeto
 
 Este projeto foi desenvolvido para a disciplina de **Redes de Computadores** e implementa comunicação cliente-servidor utilizando sockets **UDP** e **TCP** em Python.
 
+## 👩‍💻 Autora
+
+- **Karen Joilly**
+- GitHub: karenjoilly11
+
 ## 📁 Estrutura do Projeto
 Codigo/redes_sockets/
-├── UDPClient.py # Cliente UDP
-├── UDPServer.py # Servidor UDP
-├── TCPClient.py # Cliente TCP simples
-├── TCPServer.py # Servidor TCP simples
-├── TCPConcurrentClient.py # Cliente TCP concorrente
-└── TCPConcurrentServer.py # Servidor TCP concorrente (multithread)
+├── UDPClient.py
+├── UDPServer.py
+├── TCPClient.py
+├── TCPServer.py
+├── TCPConcurrentClient.py
+└── TCPConcurrentServer.py
 
 text
 
 ## 🔧 Requisitos
 
 - Python 3.x
-- Nenhuma biblioteca externa necessária (apenas socket, que já vem com Python)
-
-## 🚀 Como Executar
-
-### 1. Protocolo UDP (não orientado à conexão)
-
-**Terminal 1 - Servidor:**
-```bash
-cd Codigo/redes_sockets
-python3 UDPServer.py
-
-**Terminal 2 - Cliente:**
-```bash
-cd Codigo/redes_sockets
-python3 UDPClient.py
-
-## 🔧 Requisitos
-
-- Python 3.x
-- Nenhuma biblioteca externa necessária (apenas socket, que já vem com Python)
+- Nenhuma biblioteca externa necessária
 
 ## 🚀 Como Executar
 
 ### 1. Protocolo UDP
 
 **Terminal 1 - Servidor:**
-```bash
 cd Codigo/redes_sockets
 python3 UDPServer.py
-Terminal 2 - Cliente:
 
-bash
+text
+
+**Terminal 2 - Cliente:**
 cd Codigo/redes_sockets
 python3 UDPClient.py
-2. Protocolo TCP Simples
-Terminal 1 - Servidor:
 
-bash
+text
+
+### 2. Protocolo TCP Simples
+
+**Terminal 1 - Servidor:**
 cd Codigo/redes_sockets
 python3 TCPServer.py
-Terminal 2 - Cliente:
 
-bash
+text
+
+**Terminal 2 - Cliente:**
 cd Codigo/redes_sockets
 python3 TCPClient.py
-3. Servidor TCP Concorrente
-Terminal 1 - Servidor:
 
-bash
+text
+
+### 3. Servidor TCP Concorrente
+
+**Terminal 1 - Servidor:**
 cd Codigo/redes_sockets
 python3 TCPConcurrentServer.py
-Terminal 2 - Cliente 1:
 
-bash
+text
+
+**Terminal 2 - Cliente 1:**
 cd Codigo/redes_sockets
 python3 TCPConcurrentClient.py
-Terminal 3 - Cliente 2:
 
-bash
+text
+
+**Terminal 3 - Cliente 2:**
 cd Codigo/redes_sockets
 python3 TCPConcurrentClient.py
+
+text
+
+## 📊 Diferenças UDP vs TCP
+
+| Característica | UDP | TCP |
+|----------------|-----|-----|
+| Conexão | Sem conexão | Orientado à conexão |
+| Confiabilidade | Não confiável | Confiável |
+| Velocidade | Mais rápido | Mais lento |
+
+## 🔗 Repositório
+
+https://github.com/karenjoilly11/redes_sockets
+
+## ✅ Status
+
+- [x] UDP implementado
+- [x] TCP simples implementado
+- [x] TCP concorrente implementado
+
+---
+
+*Última atualização: Abril de 2026*
