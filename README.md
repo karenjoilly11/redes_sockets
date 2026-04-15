@@ -8,15 +8,18 @@ Este projeto foi desenvolvido para a disciplina de **Redes de Computadores** e i
 - GitHub: karenjoilly11
 
 ## 📁 Estrutura do Projeto
+```
 Codigo/redes_sockets/
+|
 ├── UDPClient.py
 ├── UDPServer.py
 ├── TCPClient.py
 ├── TCPServer.py
 ├── TCPConcurrentClient.py
 └── TCPConcurrentServer.py
+```
 
-text
+
 
 ## 🔧 Requisitos
 
